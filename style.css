@@ -1,0 +1,268 @@
+body {
+    background-color: #faefe0;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.half {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+.icon {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.header {
+    padding: 0 60px;
+    height: 420px;
+    background-image: linear-gradient(to bottom, transparent, transparent, #e5dccd),
+        url("images/background.jpg");
+    border-bottom: 3px solid gray;
+}
+
+.header h1 {
+    font-size: 90px;
+    position: absolute;
+    top: 290px;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background: linear-gradient(#ecdecc, #faefe0, #ecdecc);
+    border-bottom: 3px solid darkgray;
+}
+
+nav ul {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 28px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline gray 1px wavy;
+}
+
+li img {
+    height: 20px;
+    position: relative;
+    right: 6px;
+    top: 3px;
+}
+
+.article > p, .article h2 {
+    padding: 0 60px;
+
+}
+
+.article h2 {
+    margin-top: 0;
+}
+
+.article {
+    padding-bottom: 60px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("images/dash.png");
+    background-position: -28px;
+}
+
+.education div {
+    background-color: white;
+    width: 27%;
+    text-align: center;
+    height: 180px;
+    box-shadow: lightgray 10px 10px 8px;
+}
+
+.footer {
+    color: #faefe0;
+    height: 60px;
+    background-color: #5d5d5d;
+    padding: 5px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    line-height: 20px;
+}
+
+.footer h5 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.main {
+    padding-bottom: 30px;
+}
+
+.main h2, .hobbies h2 {
+    font-size: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    height: 1350px;
+}
+
+.gallery img {
+    height: 400px;
+}
+
+.gallery img.horizontal {
+    height: 250px;
+}
+
+.gallery img:hover {
+    opacity: 90%;
+}
+
+.hobbies {
+    padding-bottom: 40px;
+}
+
+.hobbies div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hobbies img {
+    height: 280px;
+    margin: 10px 0;
+    box-shadow: gray 8px 8px 7px;
+}
+
+.hobbies p:nth-of-type(2n) {
+    padding-left: 25px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.contact h1 {
+    font-size: 55px;
+}
+
+.contact img {
+    width: 885px;
+}
+
+.contact a {
+    text-decoration: underline 1px solid;
+    font-weight: bold;
+    color: black;
+}
+
+.contact p {
+    width: 470px;
+}
+
+.contact div {
+    width: 500px;
+}
+
+form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+form div input {
+    height: 30px;
+    width: 220px;
+}
+
+label {
+    padding: 2px 0;
+}
+
+form textarea {
+    height: 90px;
+    width: 470px;
+    min-width: 470px;
+    max-width: 470px;
+    min-height: 30px;
+    max-height: 140px;
+}
+
+button {
+    margin: 5px 0;
+    height: 35px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 0 10px;
+    font-weight: bold;
+    background-color: #232323;
+    color: #faefe0;
+    font-family: "Marvel", sans-serif;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #5e5e5e;
+    cursor: pointer;
+}
+
+.main, .hobbies, .contact {
+    width: 1399px;
+    margin: 0 auto;
+}
+
+::selection {
+    background-color: #7c715d;
+    color: white;
+}
